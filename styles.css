@@ -1,0 +1,218 @@
+:root {
+    --secondary-color: #00BFFF;
+    --primary-color: #FF6F61;
+    --accent-color: #50C878;
+    --background-color: #E6E6FA;
+    --text-color: #444444;
+    --cta-color: #FF1493;
+    --link-color: #7851A9;
+  }
+
+  body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #E6E6FA;
+}
+nav {
+
+    /* Replace bg-primary with bg-transparent */
+    background-color: rgba(0, 0, 0, 0.3); /* You can adjust the opacity value (0.3) as needed */
+}
+  body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--primary-color);
+    padding: 0px 0;
+    color: var(--text-color);
+  }
+  
+  /* Navigation bar */
+  .bg-primary py-4{
+    background-color: var(--primary-color);
+    font-family: 'Rubik', sans-serif; 
+  }
+  .container{
+    font-family: 'Rubik', sans-serif;
+    max-width: 1200px;
+  }
+  .nav-link {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+  }
+  
+  /* Buttons */
+  .button-primary {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .button-secondary {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .button-accent {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  /* Call to action */
+  .cta-button {
+    background-color: var(--cta-color);
+    color: white;
+  }
+  
+  /* Links */
+  a {
+    font-family: 'Rubik', sans-serif;
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    font-family: 'Rubik', sans-serif;
+    color: var(--secondary-color);
+  }
+
+
+
+  /* Buttons */
+.button-primary,
+.button-secondary,
+.button-accent,
+.cta-button {
+    font-family: 'Rubik', sans-serif;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 12px; /* Adjust the value as needed for the desired roundness */
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-primary:hover,
+.button-secondary:hover,
+.button-accent:hover,
+.cta-button:hover {
+    font-family: 'Rubik', sans-serif;
+  background-color: var(--secondary-color);
+}
+.gri{
+    font-family: 'Rubik', sans-serif;
+    background-color: #E6E6FA;
+}
+.gri2 py-16{
+    font-family: 'Rubik', sans-serif;
+    background-color: #50C878;
+}
+
+ul.list-disc {
+    /* Existing styles */
+    font-size: 28px; /* Adjust this value as needed */
+}
+
+.list-custom-image::before {
+    content: "";
+    display: inline-block;
+    width: 16px; /* Adjust the width of the image */
+    height: 16px; /* Adjust the height of the image */
+    background-image: url('http://www.w3.org/2000/svg'); /* Replace with the path to your custom image */
+    background-size: cover;
+    margin-right: 8px; /* Adjust the spacing between the image and the list item content */
+}
+
+
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bg-primary {
+    background-color: #1F2937;
+}
+
+.text-primary {
+    color: #1F2937;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-gray-600 {
+    color: #6B7280;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}
+
+.max-w-md {
+    max-width: 28rem;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.button-primary {
+    background-color: #10B981;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #059669;
+}
+
+/* Additional styles specific to the upload form */
+.form-group {
+    margin-bottom: 1rem;
+}
